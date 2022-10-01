@@ -8,7 +8,7 @@ const localStorage = require('engine/local-storage').instance();
 const t = require('engine/i18n');
 
 t.requirePhrase('frontpage');
-
+//extra work has been done
 exports.get = async function (ctx, next) {
 
   ctx.locals.sitetoolbar = true;
